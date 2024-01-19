@@ -6,12 +6,14 @@ import './app.css'
 const app = () => {
   return (
     <div >
-      <nav >
+      <h1>sit t9wd makyn la portfolio la zb</h1>
+      {/* <nav >
       <Navbar/>
       </nav>
       <Hero/>
+      
    
-        <Skills/>
+        <Skills/> */}
      
       
     </div>
