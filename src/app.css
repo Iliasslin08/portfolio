@@ -1,0 +1,9 @@
+nav{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    left: 0; /* Add this line if you want to fix it horizontally as well */
+    z-index: 30;
+    backdrop-filter: blur(50px);
+}
