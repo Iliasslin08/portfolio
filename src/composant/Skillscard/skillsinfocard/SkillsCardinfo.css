@@ -86,5 +86,6 @@
 }
 
 .skills-info-card {
-  position: relative; /* Ajout de position relative pour les pseudo-éléments */
+  position: relative; 
 }
+

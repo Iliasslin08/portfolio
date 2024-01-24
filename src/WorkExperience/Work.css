@@ -1,0 +1,18 @@
+.h1{
+    padding-top:0px ;
+    margin-bottom: -10px;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    background: linear-gradient(180deg,#576cbc 0%, #132a53);
+    box-shadow: 0 16px 24px;
+    max-width: 600px;
+}
+.experience-container{
+    margin-top: -380px;
+}

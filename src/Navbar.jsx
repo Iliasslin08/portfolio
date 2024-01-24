@@ -16,16 +16,16 @@ function Navbar() {
           <img className='logo' src='' alt='Logo' />
           <ul className={`menu-list ${isMenuOpen ? 'menu-open' : ''}`}>
             <li>
-              <a className='menu-items' href='#'>Home</a>
+              <a className='menu-items' href='#hero-section'>Home</a>
             </li>
             <li>
-              <a className='menu-items' href='#'>Skills</a>
+              <a className='menu-items' href='#skills-section'>Skills</a>
             </li>
             <li>
-              <a className='menu-items' href='#'>Projects</a>
+              <a className='menu-items' href='#work-section'>Projects</a>
             </li>
             <li>
-              <a className='menu-items' href='#'>Contact Me</a>
+              <a className='menu-items' href='#contact-section'>Contact Me</a>
             </li>
             <button className='contact-btn' onClick={() => { alert("Hire Me clicked"); }}>Hire Me</button>
           </ul>

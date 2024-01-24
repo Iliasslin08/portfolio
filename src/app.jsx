@@ -1,23 +1,25 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Hero from './Hero'
-import Skills from './Skills'
-import './app.css'
-const app = () => {
-  return (
-    <div >
-      <h1>sit t9wd makyn la portfolio la zb</h1>
-      {/* <nav >
-      <Navbar/>
-      </nav>
-      <Hero/>
-      
-   
-        <Skills/> */}
-     
-      
-    </div>
-  )
-}
+import React from 'react';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Skills from './Skills';
+import Work from './WorkExperience/Work';
+import './app.css';
 
-export default app
+const App = () => {
+  return (
+    <div>
+    <div className='nav'> <Navbar /></div> 
+      <div id="hero-section">
+        <Hero />
+      </div>
+      <div id="skills-section">
+        <Skills />
+      </div>
+      <div id="work-section">
+        <Work />
+      </div>
+    </div>
+  );
+};
+
+export default App;

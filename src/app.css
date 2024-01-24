@@ -1,4 +1,4 @@
-nav{
+.nav{
     background: rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0;
     position: sticky;
@@ -7,3 +7,7 @@ nav{
     z-index: 30;
     backdrop-filter: blur(50px);
 }
+html, body {
+    scroll-behavior: smooth;
+  }
+  

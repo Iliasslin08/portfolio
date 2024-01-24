@@ -1,0 +1,79 @@
+
+.container {
+    margin-top: 70px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+}
+
+.projects {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.images {
+    margin-bottom: 16px;
+    width: 500px; /* Set a fixed width for the images */
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+    overflow: hidden;
+
+}
+
+.images:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+.description {
+    margin-top: 5px;
+    font-family: 'YourChosenFont', sans-serif; /* Specify the desired font family */
+    font-size: 24px; /* Adjusted font size */
+    font-weight: 400;
+}
+
+.links {
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 234);
+    padding: 8px 20px;
+}
+
+.all-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.text-projet {
+    margin-top: 200px; /* Adjusted margin-top */
+    text-align: justify;
+    font-family: 'YourChosenFont', sans-serif; /* Specify the desired font family */
+    font-size: 18px; /* Adjusted font size */
+}
+
+.text-projet p {
+    font-size: 29px;
+
+}
