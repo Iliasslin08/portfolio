@@ -19,10 +19,10 @@ function Navbar() {
               <a className='menu-items' href='#hero-section'>Home</a>
             </li>
             <li>
-              <a className='menu-items' href='#skills-section'>Skills</a>
+              <a className='menu-items' href='#work-section'>Skills</a>
             </li>
             <li>
-              <a className='menu-items' href='#work-section'>Projects</a>
+              <a className='menu-items' href='#skills-section'>Projects</a>
             </li>
             <li>
               <a className='menu-items' href='#contact-section'>Contact Me</a>
