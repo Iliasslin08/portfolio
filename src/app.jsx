@@ -7,19 +7,19 @@ import './app.css';
 
 const App = () => {
   return (
-    // <div>
-    // <div className='nav'> <Navbar /></div> 
-    //   <div id="hero-section">
-    //     <Hero />
-    //   </div>
-    //   <div id="skills-section">
-    //     <Skills />
-    //   </div>
-    //   <div id="work-section">
-    //     <Work />
-    //   </div>
-    // </div>
-  );
+    <div>
+    <div className='nav'> <Navbar /></div> 
+      <div id="hero-section">
+        <Hero />
+      </div>
+      <div id="skills-section">
+        <Skills />
+      </div>
+      <div id="work-section">
+        <Work />
+      </div>
+    </div>
+  )
 };
 
 export default App;
